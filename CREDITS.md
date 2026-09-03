@@ -1,4 +1,4 @@
-### 🤝 CodeAssist Credits:
+### 🤝 FileRenamer Credits:
 ---
 ```Developer(s)```
 - ghostbyte420
