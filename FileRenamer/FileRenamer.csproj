@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net10.0-windows</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWindowsForms>true</UseWindowsForms>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<AssemblyName>FileRenamer</AssemblyName>
+		<RootNamespace>FileRenamer</RootNamespace>
+
+		<!-- The app's icon (shown on the .exe and taskbar) -->
+		<ApplicationIcon>res\icon.ico</ApplicationIcon>
+
+		<!-- ===== The two version numbers ===== -->
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<FileVersion>1.0.0.0</FileVersion>
+
+		<!-- ===== Publish settings: one self-contained .exe ===== -->
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+		<SelfContained>true</SelfContained>
+		<PublishSingleFile>true</PublishSingleFile>
+		<IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+		<EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+
+		<!-- Send the published app to bin\Publish -->
+		<PublishDir>bin\Publish\</PublishDir>
+	</PropertyGroup>
+
+</Project>
